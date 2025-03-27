@@ -36,7 +36,7 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintVertical_bias="1.0" />
 ```
-![image](https://github.com/user-attachments/assets/72ccffa6-f4cb-434a-a364-5e35c2196c77)
+![image](https://github.com/user-attachments/assets/18d9ffeb-c1ff-41d9-9f34-b75c3539faaf)
 
 В файлі activity_main.xml додаємо рядок `android:background="#E170D58B"` та змінюємо колір фону.
 У папку drawable додаємо зображення img1.png та через ImageView додаємо зображення до макету.
@@ -53,4 +53,23 @@
 ```
 В результаті отримуємо вітальну листівку:
 
-![image](https://github.com/user-attachments/assets/3ccb2f05-b45f-4fc2-b33f-17cd98ac13f3)
+![image](https://github.com/user-attachments/assets/1e0cd664-7fbb-43ce-81b0-e8fb3b388548)
+
+
+### Завдання №2
+У файлі activity_main.xml додаємо заголовок, підпис, слово з перемішаними літерами, поле для введення та кнопку.
+
+![image](https://github.com/user-attachments/assets/e58b9d0e-d4ca-4f73-8734-57c8ea72413b)
+
+У файлі MainActivity.kt та пишемо логіку гри. Запускаємо додаток і перевіряємо роботу. Виводиться слово з перемішаними літерами. Користувач намагається вгадати загадане слово і вводить свій варіант у поле та натискає кнопку "Unscramble word". 
+
+![image](https://github.com/user-attachments/assets/c3b0c31b-a2f1-4034-8ea9-398b89dfb17c)
+
+Якщо слово вгадано виводиться повідомлення "Correct!" та змінюєтся загадане слово.
+
+![image](https://github.com/user-attachments/assets/8e77f352-1493-419c-a428-ee210dd13eb2)
+
+Якщо користувач не вгадав виводиться повідомлення "Wrong!" та користувач має можливість спробувати ще раз.
+
+![image](https://github.com/user-attachments/assets/bafe449d-4e28-4226-8280-28a212417551)
+
